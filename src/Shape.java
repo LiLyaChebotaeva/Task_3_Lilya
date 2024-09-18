@@ -1,4 +1,21 @@
-package PACKAGE_NAME;
+abstract class Shape {
+    public abstract float getArea();
+}
 
-public class Shape {
+class Circle extends Shape{
+    public int r;
+    @Override
+    public float getArea() {
+        return (float) (Math.PI * Math.pow(r, 2));
+    }
+}
+
+class Rectangle extends Shape{
+    public int a;
+    public int b;
+
+    @Override
+    public float getArea() {
+        return a*b;
+    }
 }
