@@ -14,7 +14,6 @@ class Car extends Transport {
     }
 }
 
-// Класс "Велосипед"
 class Bike extends Transport {
     public Bike(int speed) {
         this.speed = speed;

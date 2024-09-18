@@ -3,7 +3,6 @@ interface Animal {
     void makeSound();
 }
 
-// Класс Dog, реализующий интерфейс Animal
 class Dog implements Animal {
     @Override
     public void makeSound() {
@@ -11,7 +10,6 @@ class Dog implements Animal {
     }
 }
 
-// Класс Cat, реализующий интерфейс Animal
 class Cat implements Animal {
     @Override
     public void makeSound() {
@@ -19,7 +17,6 @@ class Cat implements Animal {
     }
 }
 
-// Класс Cow, реализующий интерфейс Animal
 class Cow implements Animal {
     @Override
     public void makeSound() {
